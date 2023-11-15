@@ -1,15 +1,20 @@
 #carouselExampleDark img{
-    max-height: 50vh;
+    max-height: 80vh !important;
+    max-width: 80vw !important;
 }
 .car{
     margin-right: 50px;
-    margin-left: 50px;
+    margin-left: 110px;
     margin-top: 30px;
+    max-height: 80vh !important;
+    max-width: 80vw !important;
 }
 .midhead{
     text-align: center;
 }
-
+.product-item img {
+    max-height: 200px;
+}
 body{
     min-height: 100vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
