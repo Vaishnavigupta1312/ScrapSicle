@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom';
 
 const Plasticcard = () => {
     const [data, setdata] = useState([]);
@@ -35,7 +36,7 @@ const Plasticcard = () => {
                   <div class="card-body">
                     <h5 class="card-title">{val.name}</h5>
                     <div class="text-center">
-                        <a class="btn btn-dark w-100"  role="button" to='/plastic'> {val.Ratings}</a>
+                        <Link class="btn btn-dark w-100"  role="button" to={val.path}> {val.Ratings}</Link>
                       </div>
                   </div>
                 </div>
